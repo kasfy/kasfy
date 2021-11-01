@@ -1,0 +1,14 @@
+{
+    "name": "kasfy/kasfy",
+    "description": "The smart customizable back-end framework",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+         "kasfy/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "."
+        }
+    }
+}
